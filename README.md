@@ -41,16 +41,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-age) {
-        switch (age) {
-            case '<40':
-                return 0.3;
-            case '>=40 & <60':
-                return 0.4;
-            case '>=60':
-                return 0.1;
-            default:
-                return 0;
-        }
-    }
-});
